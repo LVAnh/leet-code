@@ -10,4 +10,5 @@ For example, to run problem 1010, replace the line with:
 import com.lvanh.1010.Solution
 ```
 ## Problems
-1. Two Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1/p1.kt)
+- `1.` Two Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1/Solution.kt)
+- `509.` Fibonacci Number - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p509/Solution.kt)

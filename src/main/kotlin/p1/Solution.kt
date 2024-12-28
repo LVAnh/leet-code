@@ -1,6 +1,7 @@
 @file:Suppress("UNUSED")
 
 package com.lvanh.p1
+
 /**
  * Problem 1. Two Sum
  */
