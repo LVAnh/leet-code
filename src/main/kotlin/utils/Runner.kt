@@ -36,6 +36,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
                 Int::class -> args[i * realParamsSize + j - start].toInt()
                 IntArray::class -> args[i * realParamsSize + j - start].toIntArray()
                 TreeNode::class -> args[i * realParamsSize + j - start].toTree()
+                ListNode::class -> args[i * realParamsSize + j - start].toListNode()
                 else -> throw Exception("Type does not define of ${parameters[j].type}")
             }
             params.add(arg)
@@ -43,6 +44,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
         val output = this.call(*params.toArray())
         val outStr = when (output) {
             is IntArray -> output.toStr()
+            is ListNode -> output.toStr()
             else -> output.toString()
         }
         logd(outStr)
