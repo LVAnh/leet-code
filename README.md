@@ -14,3 +14,4 @@ import com.lvanh.1010.Solution
 - `2.` Add Two Numbers - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2/Solution.kt)
 - `70.` Climbing Stairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p70/Solution.kt)
 - `509.` Fibonacci Number - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p509/Solution.kt)
+- `689.` Maximum Sum of 3 Non-Overlapping Subarrays - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p689/Solution.kt)
