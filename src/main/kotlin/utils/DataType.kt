@@ -56,7 +56,7 @@ fun String.toIntArray(): IntArray = this.removePrefix("[")
 fun String.toIntOrNullArray(): Array<Int?> = this.removePrefix("[")
     .removeSuffix("]")
     .split(",")
-    .map { it.trim().toInt() }
+    .map { it.trim().toIntOrNull() }
     .toTypedArray()
 
 fun IntArray.toStr(): String = "[${this.joinToString(",")}]"
