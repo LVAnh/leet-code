@@ -16,6 +16,7 @@ fun IntArray.toListNode(): ListNode? {
     }
     return root
 }
+
 fun ListNode?.toIntArray(): IntArray {
     if (this == null) return intArrayOf()
     var result = arrayListOf<Int>()
@@ -52,6 +53,12 @@ fun String.toIntArray(): IntArray = this.removePrefix("[")
     .split(",")
     .map { it.trim().toInt() }
     .toIntArray()
+
+fun String.to2DIntArray(): Array<IntArray> = this.removePrefix("[[")
+    .removeSuffix("]]")
+    .split("],[").map { row ->
+        row.split(",").map { it.toInt() }.toIntArray()
+    }.toTypedArray()
 
 fun String.toIntOrNullArray(): Array<Int?> = this.removePrefix("[")
     .removeSuffix("]")

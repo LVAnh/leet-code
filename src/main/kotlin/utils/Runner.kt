@@ -35,6 +35,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
             val arg = when (parameters[j].type.classifier) {
                 Int::class -> args[i * realParamsSize + j - start].toInt()
                 IntArray::class -> args[i * realParamsSize + j - start].toIntArray()
+                Array<IntArray>::class -> args[i * realParamsSize + j - start].to2DIntArray()
                 TreeNode::class -> args[i * realParamsSize + j - start].toTree()
                 ListNode::class -> args[i * realParamsSize + j - start].toListNode()
                 else -> throw Exception("Type does not define of ${parameters[j].type}")
@@ -51,7 +52,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
     }
 }
 
-fun <R> KFunction<R>.getTestCase():String {
+fun <R> KFunction<R>.getTestCase(): String {
     val practice = this.javaMethod?.declaringClass?.packageName?.split(".")?.last()
     val userDir = System.getProperty("user.dir")
     val filePath = "$userDir/src/main/kotlin/$practice/testCase.txt"

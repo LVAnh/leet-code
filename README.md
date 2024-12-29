@@ -18,3 +18,4 @@ import com.lvanh.1010.Solution
 - `494.` Target Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p494/Solution.kt)
 - `509.` Fibonacci Number - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p509/Solution.kt)
 - `689.` Maximum Sum of 3 Non-Overlapping Subarrays - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p689/Solution.kt)
+- `3402.` `WC-430` Minimum Operations to Make Columns Strictly Increasing - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3402/Solution.kt)
