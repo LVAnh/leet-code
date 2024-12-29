@@ -32,12 +32,14 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
         if (receiverRequired) params.add(receiver)
         val start = parameters.size - realParamsSize
         for (j in start until parameters.size) {
+            var argStr = args[i * realParamsSize + j - start]
             val arg = when (parameters[j].type.classifier) {
-                Int::class -> args[i * realParamsSize + j - start].toInt()
-                IntArray::class -> args[i * realParamsSize + j - start].toIntArray()
-                Array<IntArray>::class -> args[i * realParamsSize + j - start].to2DIntArray()
-                TreeNode::class -> args[i * realParamsSize + j - start].toTree()
-                ListNode::class -> args[i * realParamsSize + j - start].toListNode()
+                String::class -> argStr.toStr()
+                Int::class -> argStr.toInt()
+                IntArray::class -> argStr.toIntArray()
+                Array<IntArray>::class -> argStr.to2DIntArray()
+                TreeNode::class -> argStr.toTree()
+                ListNode::class -> argStr.toListNode()
                 else -> throw Exception("Type does not define of ${parameters[j].type}")
             }
             params.add(arg)
