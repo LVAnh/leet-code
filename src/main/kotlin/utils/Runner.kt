@@ -35,6 +35,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
             var argStr = args[i * realParamsSize + j - start]
             val arg = when (parameters[j].type.classifier) {
                 String::class -> argStr.toStr()
+                Array<String>::class -> argStr.toStringArray()
                 Int::class -> argStr.toInt()
                 IntArray::class -> argStr.toIntArray()
                 Array<IntArray>::class -> argStr.to2DIntArray()

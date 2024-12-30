@@ -4,7 +4,7 @@ package com.lvanh.p3403
 
 /**
  * Weekly Contest 430
- * Problem 3403. Minimum Operations to Make Columns Strictly Increasing
+ * Problem 3403. Find the Lexicographically Largest String From the Box I
  */
 
 class Solution {

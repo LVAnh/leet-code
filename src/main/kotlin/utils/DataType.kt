@@ -69,3 +69,9 @@ fun String.toIntOrNullArray(): Array<Int?> = this.removePrefix("[")
 fun IntArray.toStr(): String = "[${this.joinToString(",")}]"
 
 fun String.toStr(): String = this.replace("\"", "")
+fun String.toStringArray(): Array<String> = this.removePrefix("[")
+    .removeSuffix("]")
+    .replace("\"", "")
+    .split(",")
+    .map { it.trim() }
+    .toTypedArray()
