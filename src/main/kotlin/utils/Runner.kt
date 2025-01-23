@@ -48,6 +48,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
         val output = this.call(*params.toArray())
         val outStr = when (output) {
             is IntArray -> output.toStr()
+            is Array<*> -> output.toStr()
             is ListNode -> output.toStr()
             else -> output.toString()
         }
