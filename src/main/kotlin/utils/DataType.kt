@@ -57,7 +57,8 @@ fun String.toIntArray(): IntArray = this.removePrefix("[")
 fun String.to2DIntArray(): Array<IntArray> = this.removePrefix("[[")
     .removeSuffix("]]")
     .split("],[").map { row ->
-        row.split(",").map { it.toInt() }.toIntArray()
+        if (row.isEmpty()) intArrayOf()
+        else row.split(",").map { it.toInt() }.toIntArray()
     }.toTypedArray()
 
 fun String.toIntOrNullArray(): Array<Int?> = this.removePrefix("[")
