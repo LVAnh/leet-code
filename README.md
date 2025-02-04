@@ -26,6 +26,7 @@ import com.lvanh.1010.Solution
 - `1267.` Count Servers that Communicate - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1267/Solution.kt)
 - `1422.` Maximum Score After Splitting a String - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1422/Solution.kt)
 - `1765.` Map of Highest Peak - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1765/Solution.kt)
+- `1800.` Maximum Ascending Subarray Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1800/Solution.kt)
 - `2017.` Grid Game - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2017/Solution.kt)
 - `2466.` Count Ways To Build Good Strings - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2466/Solution.kt)
 - `2661.` First Completely Painted Row or Column - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2661/Solution.kt)
