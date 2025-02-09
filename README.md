@@ -31,6 +31,7 @@ import com.lvanh.1010.Solution
 - `1800.` Maximum Ascending Subarray Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1800/Solution.kt)
 - `2017.` Grid Game - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2017/Solution.kt)
 - `2349.` Design a Number Container System - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2349/Solution.kt)
+- `2364.` Count Number of Bad Pairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2364/Solution.kt)
 - `2466.` Count Ways To Build Good Strings - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2466/Solution.kt)
 - `2661.` First Completely Painted Row or Column - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2661/Solution.kt)
 - `3105.` Longest Strictly Increasing or Strictly Decreasing Subarray - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3105/Solution.kt)
