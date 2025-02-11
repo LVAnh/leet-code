@@ -2,8 +2,6 @@
 
 package com.lvanh.p3174
 
-import java.util.Stack
-
 /**
  * Problem 3174. Clear Digits
  */

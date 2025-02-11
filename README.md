@@ -29,6 +29,7 @@ import com.lvanh.1010.Solution
 - `1765.` Map of Highest Peak - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1765/Solution.kt)
 - `1790.` Check if One String Swap Can Make Strings Equal - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1790/Solution.kt)
 - `1800.` Maximum Ascending Subarray Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1800/Solution.kt)
+- `1910.` Remove All Occurrences of a Substring - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1910/Solution.kt)
 - `2017.` Grid Game - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2017/Solution.kt)
 - `2349.` Design a Number Container System - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2349/Solution.kt)
 - `2364.` Count Number of Bad Pairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2364/Solution.kt)
