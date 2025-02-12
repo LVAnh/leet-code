@@ -31,6 +31,7 @@ import com.lvanh.1010.Solution
 - `1800.` Maximum Ascending Subarray Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1800/Solution.kt)
 - `1910.` Remove All Occurrences of a Substring - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1910/Solution.kt)
 - `2017.` Grid Game - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2017/Solution.kt)
+- `2342.` Max Sum of a Pair With Equal Sum of Digits - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2342/Solution.kt)
 - `2349.` Design a Number Container System - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2349/Solution.kt)
 - `2364.` Count Number of Bad Pairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2364/Solution.kt)
 - `2466.` Count Ways To Build Good Strings - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2466/Solution.kt)
