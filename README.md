@@ -37,6 +37,7 @@ import com.lvanh.1010.Solution
 - `2466.` Count Ways To Build Good Strings - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2466/Solution.kt)
 - `2661.` First Completely Painted Row or Column - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2661/Solution.kt)
 - `3105.` Longest Strictly Increasing or Strictly Decreasing Subarray - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3105/Solution.kt)
+- `3066.` Minimum Operations to Exceed Threshold Value II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3066/Solution.kt)
 - `3160.` Find the Number of Distinct Colors Among the Balls - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3160/Solution.kt)
 - `3174.` Clear Digits - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3174/Solution.kt)
 - `3402.` `WC-430` Minimum Operations to Make Columns Strictly Increasing - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3402/Solution.kt)
