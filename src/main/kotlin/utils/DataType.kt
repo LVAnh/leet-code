@@ -50,9 +50,10 @@ fun String.toTree(): TreeNode? = this.toIntOrNullArray().toTree(0)
 
 fun String.toIntArray(): IntArray = this.removePrefix("[")
     .removeSuffix("]")
-    .split(",")
-    .map { it.trim().toInt() }
-    .toIntArray()
+    .let { it ->
+        if (it.isEmpty()) intArrayOf()
+        else it.split(",").map { int -> int.trim().toInt() }.toIntArray()
+    }
 
 fun String.to2DIntArray(): Array<IntArray> = this.removePrefix("[[")
     .removeSuffix("]]")

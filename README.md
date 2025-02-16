@@ -15,6 +15,7 @@ import com.lvanh.1010.Solution
 - `3.` Longest Substring Without Repeating Characters - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3/Solution.kt)
 - `4.` Median of Two Sorted Arrays - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p4/Solution.kt)
 - `70.` Climbing Stairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p70/Solution.kt)
+- `88.` Merge Sorted Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p88/Solution.kt)
 - `118.` Pascal's Triangle - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p118/Solution.kt)
 - `121.` Best Time to Buy and Sell Stock - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p121/Solution.kt)
 - `122.` Best Time to Buy and Sell Stock II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p122/Solution.kt)
