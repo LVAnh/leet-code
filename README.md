@@ -45,3 +45,4 @@ import com.lvanh.1010.Solution
 - `3402.` `WC-430` Minimum Operations to Make Columns Strictly Increasing - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3402/Solution.kt)
 - `3403.` `WC-430` Find the Lexicographically Largest String From the Box I - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3403/Solution.kt)
 - `3456.` `WC-437` Find Special Substring of Length K - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3456/Solution.kt)
+- `3457.` `WC-437` Eat Pizzas! - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3457/Solution.kt)
