@@ -14,6 +14,7 @@ import com.lvanh.1010.Solution
 - `2.` Add Two Numbers - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2/Solution.kt)
 - `3.` Longest Substring Without Repeating Characters - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3/Solution.kt)
 - `4.` Median of Two Sorted Arrays - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p4/Solution.kt)
+- `27.` Remove Element - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p27/Solution.kt)
 - `70.` Climbing Stairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p70/Solution.kt)
 - `88.` Merge Sorted Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p88/Solution.kt)
 - `118.` Pascal's Triangle - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p118/Solution.kt)
