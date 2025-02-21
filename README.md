@@ -35,6 +35,7 @@ import com.lvanh.1010.Solution
 - `802.` Find Eventual Safe States - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p802/Solution.kt)
 - `983.` Minimum Cost For Tickets - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p983/Solution.kt)
 - `1079.` Letter Tile Possibilities - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1079/Solution.kt)
+- `1261.` Find Elements in a Contaminated Binary Tree - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1261/Solution.kt)
 - `1267.` Count Servers that Communicate - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1267/Solution.kt)
 - `1352.` Product of the Last K Numbers - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1352/Solution.kt)
 - `1415.` The k-th Lexicographical String of All Happy Strings of Length n - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1415/Solution.kt)
