@@ -2,6 +2,9 @@
 
 package com.lvanh.utils
 
+import java.util.LinkedList
+import java.util.Queue
+
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
@@ -48,6 +51,25 @@ fun Array<Int?>.toTree(index: Int): TreeNode? {
 
 fun String.toTree(): TreeNode? = this.toIntOrNullArray().toTree(0)
 
+fun TreeNode?.toIntOrNullArrayStr(): String {
+    if (this == null) return "[]"
+    val result = mutableListOf<String>()
+    val queue: Queue<TreeNode?> = LinkedList<TreeNode?>()
+    queue.add(this)
+    while (queue.isNotEmpty()) {
+        val node = queue.poll()
+        if (node?.`val` != null) {
+            result.add(node.`val`.toString())
+            queue.add(node.left)
+            queue.add(node.right)
+        } else result.add("null")
+    }
+    while (result.isNotEmpty() && result.last() == "null") {
+        result.removeAt(result.size - 1)
+    }
+    return result.joinToString(prefix = "[", postfix = "]")
+}
+
 fun String.toIntArray(): IntArray = this.removePrefix("[")
     .removeSuffix("]")
     .let { it ->
@@ -60,6 +82,16 @@ fun String.to2DIntArray(): Array<IntArray> = this.removePrefix("[[")
     .split("],[").map { row ->
         if (row.isEmpty()) intArrayOf()
         else row.split(",").map { it.toInt() }.toIntArray()
+    }.toTypedArray()
+
+fun String.to2DIntOrNullArray(): Array<Array<Int?>> = this.removePrefix("[[")
+    .removeSuffix("]]")
+    .split("],[").map { row ->
+        if (row.isEmpty()) arrayOf<Int?>()
+        else row.split(",").map {
+            if (it == "null") null
+            else it.toInt()
+        }.toTypedArray()
     }.toTypedArray()
 
 fun String.toIntOrNullArray(): Array<Int?> = this.removePrefix("[")

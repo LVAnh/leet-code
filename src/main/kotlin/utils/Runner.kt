@@ -39,6 +39,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
                 Int::class -> argStr.toInt()
                 IntArray::class -> argStr.toIntArray()
                 Array<IntArray>::class -> argStr.to2DIntArray()
+                Array<Array<Int?>>::class -> argStr.to2DIntOrNullArray()
                 TreeNode::class -> argStr.toTree()
                 ListNode::class -> argStr.toListNode()
                 else -> throw Exception("Type does not define of ${parameters[j].type}")
@@ -50,6 +51,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
             is IntArray -> output.toStr()
             is Array<*> -> output.toStr()
             is ListNode -> output.toStr()
+            is TreeNode? -> output.toIntOrNullArrayStr()
             else -> output.toString()
         }
         logd(outStr)

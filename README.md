@@ -34,6 +34,7 @@ import com.lvanh.1010.Solution
 - `689.` Maximum Sum of 3 Non-Overlapping Subarrays - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p689/Solution.kt)
 - `802.` Find Eventual Safe States - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p802/Solution.kt)
 - `983.` Minimum Cost For Tickets - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p983/Solution.kt)
+- `1028.` Recover a Tree From Preorder Traversal - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1028/Solution.kt)
 - `1079.` Letter Tile Possibilities - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1079/Solution.kt)
 - `1261.` Find Elements in a Contaminated Binary Tree - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1261/Solution.kt)
 - `1267.` Count Servers that Communicate - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1267/Solution.kt)
