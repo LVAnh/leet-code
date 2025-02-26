@@ -45,6 +45,7 @@ import com.lvanh.1010.Solution
 - `1524.` Number of Sub-arrays With Odd Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1524/Solution.kt)
 - `1718.` Construct the Lexicographically Largest Valid Sequence - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1718/Solution.kt)
 - `1726.` Tuple with Same Product - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1726/Solution.kt)
+- `1749.` Maximum Absolute Sum of Any Subarray - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1749/Solution.kt)
 - `1765.` Map of Highest Peak - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1765/Solution.kt)
 - `1790.` Check if One String Swap Can Make Strings Equal - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1790/Solution.kt)
 - `1800.` Maximum Ascending Subarray Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1800/Solution.kt)
