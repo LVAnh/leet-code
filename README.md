@@ -30,6 +30,7 @@ import com.lvanh.1010.Solution
 - `198.` House Robber - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p198/Solution.kt)
 - `257.` Binary Tree Paths - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p257/Solution.kt)
 - `295.` Find Median from Data Stream - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p295/Solution.kt)
+- `300.` Longest Increasing Subsequence - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p300/Solution.kt)
 - `322.` Coin Change - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p322/Solution.kt)
 - `494.` Target Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p494/Solution.kt)
 - `502.` IPO - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p502/Solution.kt)
