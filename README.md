@@ -26,6 +26,7 @@ import com.lvanh.1010.Solution
 - `169.` Majority Element - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p169/Solution.kt)
 - `188.` Best Time to Buy and Sell Stock IV - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p188/Solution.kt)
 - `189.` Rotate Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p189/Solution.kt)
+- `198.` House Robber - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p198/Solution.kt)
 - `257.` Binary Tree Paths - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p257/Solution.kt)
 - `295.` Find Median from Data Stream - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p295/Solution.kt)
 - `494.` Target Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p494/Solution.kt)
