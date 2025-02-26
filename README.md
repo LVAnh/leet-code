@@ -23,6 +23,7 @@ import com.lvanh.1010.Solution
 - `121.` Best Time to Buy and Sell Stock - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p121/Solution.kt)
 - `122.` Best Time to Buy and Sell Stock II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p122/Solution.kt)
 - `123.` Best Time to Buy and Sell Stock III - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p123/Solution.kt)
+- `139.` Word Break - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p139/Solution.kt)
 - `169.` Majority Element - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p169/Solution.kt)
 - `188.` Best Time to Buy and Sell Stock IV - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p188/Solution.kt)
 - `189.` Rotate Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p189/Solution.kt)
