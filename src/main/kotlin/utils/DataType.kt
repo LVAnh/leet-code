@@ -4,6 +4,7 @@ package com.lvanh.utils
 
 import java.util.LinkedList
 import java.util.Queue
+import kotlin.collections.toList
 
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
@@ -93,6 +94,15 @@ fun String.to2DIntOrNullArray(): Array<Array<Int?>> = this.removePrefix("[[")
             else it.toInt()
         }.toTypedArray()
     }.toTypedArray()
+
+fun String.to2DIntList(): List<List<Int>> = this.removePrefix("[[")
+    .removeSuffix("]]")
+    .split("],[").map { row ->
+        if (row.isEmpty()) listOf<Int>()
+        else row.split(",").map {
+            it.toInt()
+        }
+    }
 
 fun String.toIntOrNullArray(): Array<Int?> = this.removePrefix("[")
     .removeSuffix("]")

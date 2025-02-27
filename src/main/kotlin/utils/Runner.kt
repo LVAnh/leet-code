@@ -5,7 +5,9 @@ import kotlin.reflect.KClass
 import kotlin.reflect.KFunction
 import kotlin.reflect.KParameter.Kind
 import kotlin.reflect.full.createInstance
+import kotlin.reflect.full.isSubtypeOf
 import kotlin.reflect.jvm.javaMethod
+import kotlin.reflect.typeOf
 
 fun <R> KFunction<R>.run(receiver: Any? = null) {
     val testCase = this.getTestCase()
@@ -42,7 +44,11 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
                 Array<Array<Int?>>::class -> argStr.to2DIntOrNullArray()
                 TreeNode::class -> argStr.toTree()
                 ListNode::class -> argStr.toListNode()
-                else -> throw Exception("Type does not define of ${parameters[j].type}")
+                else -> when {
+                        parameters[j].type.isSubtypeOf(typeOf<List<List<Int>>>()) -> argStr.to2DIntList()
+                        else -> throw Exception("Type does not define of ${parameters[j].type}")
+                    }
+
             }
             params.add(arg)
         }
