@@ -64,6 +64,7 @@ import com.lvanh.1010.Solution
 - `2349.` Design a Number Container System - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2349/Solution.kt)
 - `2364.` Count Number of Bad Pairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2364/Solution.kt)
 - `2375.` Construct Smallest Number From DI String - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2375/Solution.kt)
+- `2460.` Apply Operations to an Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2460/Solution.kt)
 - `2466.` Count Ways To Build Good Strings - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2466/Solution.kt)
 - `2467.` Most Profitable Path in a Tree - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2467/Solution.kt)
 - `2698.` Find the Punishment Number of an Integer - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2698/Solution.kt)
