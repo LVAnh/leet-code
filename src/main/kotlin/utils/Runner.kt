@@ -44,6 +44,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
                 Array<Array<Int?>>::class -> argStr.to2DIntOrNullArray()
                 TreeNode::class -> argStr.toTree()
                 ListNode::class -> argStr.toListNode()
+                Array<ListNode?>::class -> argStr.toArrayListNode()
                 else -> when {
                         parameters[j].type.isSubtypeOf(typeOf<List<List<Int>>>()) -> argStr.to2DIntList()
                         else -> throw Exception("Type does not define of ${parameters[j].type}")

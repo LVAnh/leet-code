@@ -33,6 +33,7 @@ fun ListNode?.toIntArray(): IntArray {
 }
 
 fun String.toListNode(): ListNode? = this.toIntArray().toListNode()
+fun String.toArrayListNode(): Array<ListNode?> = this.to2DIntArray().map { it.toListNode() }.toTypedArray()
 
 fun ListNode.toStr(): String = this.toIntArray().toStr()
 
@@ -78,12 +79,15 @@ fun String.toIntArray(): IntArray = this.removePrefix("[")
         else it.split(",").map { int -> int.trim().toInt() }.toIntArray()
     }
 
-fun String.to2DIntArray(): Array<IntArray> = this.removePrefix("[[")
-    .removeSuffix("]]")
-    .split("],[").map { row ->
-        if (row.isEmpty()) intArrayOf()
-        else row.split(",").map { it.toInt() }.toIntArray()
-    }.toTypedArray()
+fun String.to2DIntArray(): Array<IntArray> {
+    if (this == "[]") return arrayOf()
+    return this.removePrefix("[[")
+        .removeSuffix("]]")
+        .split("],[").map { row ->
+            if (row.isEmpty()) intArrayOf()
+            else row.split(",").map { it.toInt() }.toIntArray()
+        }.toTypedArray()
+}
 
 fun String.to2DIntOrNullArray(): Array<Array<Int?>> = this.removePrefix("[[")
     .removeSuffix("]]")
