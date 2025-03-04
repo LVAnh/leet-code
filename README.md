@@ -58,6 +58,7 @@ import com.lvanh.1010.Solution
 - `1726.` Tuple with Same Product - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1726/Solution.kt)
 - `1749.` Maximum Absolute Sum of Any Subarray - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1749/Solution.kt)
 - `1765.` Map of Highest Peak - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1765/Solution.kt)
+- `1780.` Check if Number is a Sum of Powers of Three - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1780/Solution.kt)
 - `1790.` Check if One String Swap Can Make Strings Equal - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1790/Solution.kt)
 - `1800.` Maximum Ascending Subarray Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1800/Solution.kt)
 - `1910.` Remove All Occurrences of a Substring - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1910/Solution.kt)
