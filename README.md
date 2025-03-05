@@ -22,6 +22,7 @@ import com.lvanh.1010.Solution
 - `80.` Remove Duplicates from Sorted Array II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p80/Solution.kt)
 - `88.` Merge Sorted Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p88/Solution.kt)
 - `118.` Pascal's Triangle - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p118/Solution.kt)
+- `119.` Pascal's Triangle II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p119/Solution.kt)
 - `120.` Triangle - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p120/Solution.kt)
 - `121.` Best Time to Buy and Sell Stock - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p121/Solution.kt)
 - `122.` Best Time to Buy and Sell Stock II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p122/Solution.kt)
