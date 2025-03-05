@@ -39,6 +39,8 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
                 String::class -> argStr.toStr()
                 Array<String>::class -> argStr.toStringArray()
                 Int::class -> argStr.toInt()
+                Long::class -> argStr.toLong()
+                Double::class -> argStr.toDouble()
                 IntArray::class -> argStr.toIntArray()
                 Array<IntArray>::class -> argStr.to2DIntArray()
                 Array<Array<Int?>>::class -> argStr.to2DIntOrNullArray()
