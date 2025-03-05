@@ -8,6 +8,7 @@ import kotlin.reflect.full.createInstance
 import kotlin.reflect.full.isSubtypeOf
 import kotlin.reflect.jvm.javaMethod
 import kotlin.reflect.typeOf
+import kotlin.system.measureTimeMillis
 
 fun <R> KFunction<R>.run(receiver: Any? = null) {
     val testCase = this.getTestCase()
@@ -48,14 +49,19 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
                 ListNode::class -> argStr.toListNode()
                 Array<ListNode?>::class -> argStr.toArrayListNode()
                 else -> when {
-                        parameters[j].type.isSubtypeOf(typeOf<List<List<Int>>>()) -> argStr.to2DIntList()
-                        else -> throw Exception("Type does not define of ${parameters[j].type}")
-                    }
+                    parameters[j].type.isSubtypeOf(typeOf<List<List<Int>>>()) -> argStr.to2DIntList()
+                    else -> throw Exception("Type does not define of ${parameters[j].type}")
+                }
 
             }
             params.add(arg)
         }
-        val output = this.call(*params.toArray())
+        val runtime = Runtime.getRuntime()
+
+        var memoryUsed = runtime.freeMemory()
+        var output: R
+        val executionTime = measureTimeMillis { output = this.call(*params.toArray()) }
+        memoryUsed -= runtime.freeMemory()
         val outStr = when (output) {
             is IntArray -> output.toStr()
             is Array<*> -> output.toStr()
@@ -63,6 +69,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
             is TreeNode? -> output.toIntOrNullArrayStr()
             else -> output.toString()
         }
+        logd("Runtime: $executionTime ms - Memory: ${memoryUsed / 1024} Bytes")
         logd(outStr)
     }
 }
@@ -70,7 +77,7 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
 fun <R> KFunction<R>.getTestCase(): String {
     val practice = this.javaMethod?.declaringClass?.packageName?.split(".")?.last()
     val userDir = System.getProperty("user.dir")
-    val filePath = "$userDir/src/main/kotlin/$practice/testCase.txt"
+    val filePath = "$userDir/src/main/kotlin/problems/$practice/testCase.txt"
     return File(filePath).readText()
 }
 

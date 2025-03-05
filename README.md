@@ -9,7 +9,7 @@ For example, to run problem 1010, replace the line with:
 ```
 import com.lvanh.1010.Solution
 ```
-## Problems
+## problems
 - `1.` Two Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1/Solution.kt)
 - `2.` Add Two Numbers - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2/Solution.kt)
 - `3.` Longest Substring Without Repeating Characters - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3/Solution.kt)
@@ -36,6 +36,7 @@ import com.lvanh.1010.Solution
 - `295.` Find Median from Data Stream - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p295/Solution.kt)
 - `300.` Longest Increasing Subsequence - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p300/Solution.kt)
 - `322.` Coin Change - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p322/Solution.kt)
+- `338.` Counting Bits - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p338/Solution.kt)
 - `392.` Is Subsequence - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p392/Solution.kt)
 - `494.` Target Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p494/Solution.kt)
 - `502.` IPO - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p502/Solution.kt)
