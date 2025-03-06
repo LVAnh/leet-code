@@ -18,6 +18,7 @@ import com.lvanh.1010.Solution
 - `26.` Remove Duplicates from Sorted Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p26/Solution.kt)
 - `27.` Remove Element - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p27/Solution.kt)
 - `50.` Pow(x, n) - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p50/Solution.kt)
+- `62.` Unique Paths - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p62/Solution.kt)
 - `70.` Climbing Stairs - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p70/Solution.kt)
 - `80.` Remove Duplicates from Sorted Array II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p80/Solution.kt)
 - `88.` Merge Sorted Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p88/Solution.kt)
