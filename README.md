@@ -77,6 +77,7 @@ import com.lvanh.1010.Solution
 - `2570.` Merge Two 2D Arrays by Summing Values - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2570/Solution.kt)
 - `2698.` Find the Punishment Number of an Integer - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2698/Solution.kt)
 - `2661.` First Completely Painted Row or Column - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2661/Solution.kt)
+- `2965.` Find Missing and Repeated Values - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2965/Solution.kt)
 - `3105.` Longest Strictly Increasing or Strictly Decreasing Subarray - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3105/Solution.kt)
 - `3066.` Minimum Operations to Exceed Threshold Value II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3066/Solution.kt)
 - `3160.` Find the Number of Distinct Colors Among the Balls - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3160/Solution.kt)
