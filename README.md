@@ -76,6 +76,7 @@ import com.lvanh.1010.Solution
 - `2460.` Apply Operations to an Array - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2460/Solution.kt)
 - `2466.` Count Ways To Build Good Strings - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2466/Solution.kt)
 - `2467.` Most Profitable Path in a Tree - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2467/Solution.kt)
+- `2523.` Closest Prime Numbers in Range - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2523/Solution.kt)
 - `2570.` Merge Two 2D Arrays by Summing Values - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2570/Solution.kt)
 - `2698.` Find the Punishment Number of an Integer - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2698/Solution.kt)
 - `2661.` First Completely Painted Row or Column - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p2661/Solution.kt)
