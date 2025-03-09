@@ -85,6 +85,7 @@ import com.lvanh.1010.Solution
 - `3066.` Minimum Operations to Exceed Threshold Value II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3066/Solution.kt)
 - `3160.` Find the Number of Distinct Colors Among the Balls - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3160/Solution.kt)
 - `3174.` Clear Digits - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3174/Solution.kt)
+- `3208.` Alternating Groups II - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3208/Solution.kt)
 - `3402.` `WC-430` Minimum Operations to Make Columns Strictly Increasing - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3402/Solution.kt)
 - `3403.` `WC-430` Find the Lexicographically Largest String From the Box I - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3403/Solution.kt)
 - `3456.` `WC-437` Find Special Substring of Length K - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p3456/Solution.kt)
