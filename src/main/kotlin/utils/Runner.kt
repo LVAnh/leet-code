@@ -12,14 +12,14 @@ import kotlin.system.measureTimeMillis
 
 fun <R> KFunction<R>.run(receiver: Any? = null) {
     val testCase = this.getTestCase()
-    var parameters = this.parameters
+    val parameters = this.parameters
     val args = testCase.trimMargin().split("\n")
     var realParamsSize = parameters.size
     var instance: Any? = null
     var receiverRequired = false
 
     if (parameters.firstOrNull()?.kind == Kind.INSTANCE) {
-        var clazz = parameters.firstOrNull()?.type?.classifier as? KClass<*>
+        val clazz = parameters.firstOrNull()?.type?.classifier as? KClass<*>
         instance = clazz?.createInstance()
         realParamsSize = parameters.size - 1
     }
@@ -30,13 +30,13 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
     }
 
     for (i in 0 until args.size / realParamsSize) {
-        var params = arrayListOf<Any?>()
+        val params = arrayListOf<Any?>()
         if (instance != null) params.add(instance)
         if (receiverRequired) params.add(receiver)
         val start = parameters.size - realParamsSize
         for (j in start until parameters.size) {
-            var argStr = args[i * realParamsSize + j - start]
-            val arg = when (parameters[j].type.classifier) {
+            val argStr = args[i * realParamsSize + j - start]
+            val arg:Any? = when (parameters[j].type.classifier) {
                 String::class -> argStr.toStr()
                 Array<String>::class -> argStr.toStringArray()
                 Int::class -> argStr.toInt()
@@ -63,10 +63,11 @@ fun <R> KFunction<R>.run(receiver: Any? = null) {
         val executionTime = measureTimeMillis { output = this.call(*params.toArray()) }
         memoryUsed -= runtime.freeMemory()
         val outStr = when (output) {
-            is IntArray -> output.toStr()
-            is Array<*> -> output.toStr()
-            is ListNode -> output.toStr()
-            is TreeNode? -> output.toIntOrNullArrayStr()
+            is IntArray -> (output as IntArray).toStr()
+            is LongArray -> (output as LongArray).toStr()
+            is Array<*> -> (output as Array<*>).toStr()
+            is ListNode -> (output as ListNode).toStr()
+            is TreeNode? -> (output as TreeNode?).toIntOrNullArrayStr()
             else -> output.toString()
         }
         logd("Runtime: $executionTime ms - Memory: ${memoryUsed / 1024} Bytes")
