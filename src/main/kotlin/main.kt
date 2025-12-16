@@ -1,6 +1,6 @@
 package com.lvanh
 
-import com.lvanh.problems.p2110.Solution
+import com.lvanh.problems.p13.Solution
 import com.lvanh.utils.run
 import kotlin.reflect.full.declaredFunctions
 
