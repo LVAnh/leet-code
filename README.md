@@ -60,6 +60,7 @@ import com.lvanh.1010.Solution
 - `1390.` Four Divisors - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1390/Solution.kt)
 - `1415.` The k-th Lexicographical String of All Happy Strings of Length n - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1415/Solution.kt)
 - `1422.` Maximum Score After Splitting a String - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1422/Solution.kt)
+- `1458.` Max Dot Product of Two Subsequences - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1458/Solution.kt)
 - `1524.` Number of Sub-arrays With Odd Sum - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1524/Solution.kt)
 - `1718.` Construct the Lexicographically Largest Valid Sequence - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1718/Solution.kt)
 - `1726.` Tuple with Same Product - [Solution](https://github.com/LVAnh/leet-code/tree/main/src/main/kotlin/p1726/Solution.kt)
